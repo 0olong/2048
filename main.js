@@ -198,7 +198,7 @@ class Game {
                             this.board[i][k] += this.board[i][j]
                             this.board[i][j] = 0
 
-                            log('moveLeft merged', i, k)
+                            // log('moveLeft merged', i, k)
                             this.mergedTilesIndex.push({r: i, c: k})
                         }
                     }
@@ -220,7 +220,7 @@ class Game {
                             this.board[i][k] += this.board[i][j]
                             this.board[i][j] = 0
 
-                            log('moveRight merged', i, k)
+                            // log('moveRight merged', i, k)
                             this.mergedTilesIndex.push({r: i, c: k})
                         }
                     }
@@ -241,7 +241,7 @@ class Game {
                             this.board[k][j] += this.board[i][j]
                             this.board[i][j] = 0
 
-                            log('moveUp merged', k, j)
+                            // log('moveUp merged', k, j)
                             this.mergedTilesIndex.push({r: k, c: j})
                         }
                     }
@@ -262,7 +262,7 @@ class Game {
                             this.board[k][j] += this.board[i][j]
                             this.board[i][j] = 0
 
-                            log('moveDown merged', k, j)
+                            // log('moveDown merged', k, j)
                             this.mergedTilesIndex.push({r: k, c: j})
                         }
                     }
