@@ -15,7 +15,7 @@ class Game {
         this.clear()
         this.initTiles()
         this.renderTiles()
-        this.mockData()
+        // this.mockData()
         this.updateTiles()
         this.updateBestScore()
     }
