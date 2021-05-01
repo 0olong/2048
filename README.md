@@ -5,5 +5,4 @@
 
 ## Screenshot
 
-![2048](Screenshot/1.gif)
-
+<img src="Screenshot/1.gif" width="400px" />
